@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <!-- PWA / Install -->
+    <link rel="manifest" href="./manifest.json" />
+    <meta name="theme-color" content="#F5C842" />
+
+    <!-- iOS PWA -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="Cash Ledger" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+
+    <!-- Android / general -->
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="Cash Ledger" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./icon-96x96.png" />
+    <link rel="shortcut icon" href="./favicon.ico" />
+
+    <!-- SEO / share -->
+    <meta name="description" content="Track your daily physical cash expenses. Syncs across all devices." />
+    <meta property="og:title" content="Cash Ledger" />
+    <meta property="og:description" content="Physical cash tracker with real-time sync" />
+    <meta property="og:image" content="/icon-512x512.png" />
+    <meta property="og:type" content="website" />
+
+    <title>Cash Ledger</title>
+
+    <style>
+      html, body { margin: 0; padding: 0; background: #0C0C12; }
+      /* iOS safe area support */
+      body { padding-top: env(safe-area-inset-top); padding-bottom: env(safe-area-inset-bottom); }
+    </style>
+    <script type="module" crossorigin src="./assets/index-CBUKvpWl.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
