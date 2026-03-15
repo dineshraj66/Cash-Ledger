@@ -1,11 +1,12 @@
 const CACHE = "cash-ledger-v1";
+const BASE = "/Cash-Ledger";
 const ASSETS = [
-  "/",
-  "/index.html",
-  "/manifest.json",
-  "/icon-192x192.png",
-  "/icon-512x512.png",
-  "/apple-touch-icon.png",
+  `${BASE}/`,
+  `${BASE}/index.html`,
+  `${BASE}/manifest.json`,
+  `${BASE}/icon-192x192.png`,
+  `${BASE}/icon-512x512.png`,
+  `${BASE}/apple-touch-icon.png`,
 ];
 
 // Install - cache all static assets
@@ -40,6 +41,6 @@ self.addEventListener("fetch", (e) => {
         caches.open(CACHE).then((c) => c.put(e.request, clone));
         return res;
       })
-      .catch(() => caches.match(e.request).then((r) => r || caches.match("/index.html")))
+      .catch(() => caches.match(e.request).then((r) => r || caches.match(`${BASE}/index.html`)))
   );
 });
