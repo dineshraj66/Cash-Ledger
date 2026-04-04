@@ -1,0 +1,29 @@
+{
+  "name": "Cash Ledger",
+  "short_name": "Cash Ledger",
+  "description": "Track your daily physical cash expenses",
+  "start_url": "/Cash-Ledger/",
+  "display": "standalone",
+  "background_color": "#0C0C12",
+  "theme_color": "#F5C842",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "/Cash-Ledger/icon-72x72.png",   "sizes": "72x72",   "type": "image/png", "purpose": "any maskable" },
+    { "src": "/Cash-Ledger/icon-96x96.png",   "sizes": "96x96",   "type": "image/png", "purpose": "any maskable" },
+    { "src": "/Cash-Ledger/icon-128x128.png", "sizes": "128x128", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/Cash-Ledger/icon-144x144.png", "sizes": "144x144", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/Cash-Ledger/icon-152x152.png", "sizes": "152x152", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/Cash-Ledger/icon-192x192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/Cash-Ledger/icon-384x384.png", "sizes": "384x384", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/Cash-Ledger/icon-512x512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "categories": ["finance", "productivity"],
+  "screenshots": [
+    {
+      "src": "/Cash-Ledger/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ]
+}
